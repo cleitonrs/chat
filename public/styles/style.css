@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #524a48;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#user_form {
+  margin-top: 2rem;
+}
+
+#messages {
+  background-color: #7100ff;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 500px;
+  color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+input {
+  margin-left: 1rem;
+  padding: 7.6px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+
+button {
+  background: #24282c;
+  border: none;
+  color: #a1eb33;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(.8);
+  transition: ease-in-out;
+}
